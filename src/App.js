@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="header bg-primary text-white py-5 text-center">
-        <h1 className="name">Shanmukha Reddy V</h1>
+        <h1 className="name">Jwalitha Nagireddy</h1>
         <p className="job-title">Full Stack Developer</p>
       </header>
 
@@ -22,9 +22,9 @@ function App() {
       <section className="contact py-5 bg-primary text-white">
         <div className="container">
           <h2 className="section-title text-white">Contact Me</h2>
-          <p>Email: shanmukhareddy51@gmail.com</p>
-          <p>Contact: +91 7702273678</p>
-          <p>GitHub: <a href="https://github.com/Shanmukh-Rdy" target="_blank" rel="noopener noreferrer">GitHub Profile</a></p>
+          <p>Email: njwalitha50.com</p>
+          <p>Contact: +91 9398491704</p>
+          <p>GitHub: <a href="https://github.com/Jwalitha07n" target="_blank" rel="noopener noreferrer">GitHub Profile</a></p>
         </div>
       </section>
     </div>
