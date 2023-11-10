@@ -1,38 +1,45 @@
+/* App container */
 .App {
-  text-align: center;
+  font-family: 'Arial', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Header section */
+.header {
+  background-color: rebeccapurple; 
+  color: #fff; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.name {
+  font-size: 3rem; /* Larger font size */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.job-title {
+  font-size: 1.5rem; /* Smaller font size */
 }
 
-.App-link {
-  color: #61dafb;
+/* Section title */
+.section-title {
+  color: #f7f7f7; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* About section */
+.about {
+  background-color: #f7f7f7; 
+}
+
+/* Contact section */
+.contact {
+  background-color: #ff00d9; 
+  color: #fff; 
+}
+
+/* Contact links */
+.contact a {
+  color:white; 
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.contact a:hover {
+  text-decoration: underline;
 }
